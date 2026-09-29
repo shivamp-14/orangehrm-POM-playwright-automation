@@ -1,0 +1,27 @@
+{
+  "name": "orangehrm-playwright-automation",
+  "version": "1.0.0",
+  "description": "Scalable Playwright framework for OrangeHRM Employee Lifecycle - QA Automation Technical Assessment",
+  "main": "playwright.config.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report",
+    "install:browsers": "npx playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "orangehrm",
+    "qa"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
